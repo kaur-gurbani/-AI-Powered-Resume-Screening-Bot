@@ -1,33 +1,45 @@
-# -AI-Powered-Resume-Screening-Bot
+🤖 AI Resume Screening Bot using Python & Power BI
+This project is an AI-based resume screening solution that compares multiple resumes with a job description using Natural Language Processing (NLP). It calculates match percentages and visualizes the results in an interactive Power BI dashboard — helping recruiters make faster, smarter decisions.
 
-✨ Resume Screening Bot — AI Meets Hiring
-Hiring made smarter.
-This project uses AI + NLP to screen and rank resumes based on how well they match a job description — in seconds, not hours.
+📌 Project Overview
+Developed in Python (Jupyter Notebook) using NLP libraries
 
-🚀 What It Does:
-Reads multiple resumes from .txt files
+Used TF-IDF and Cosine Similarity to compare resumes and job descriptions
 
-Uses TF-IDF to extract key terms
+Exported results to Excel and built a Power BI dashboard for visualization
 
-Applies Cosine Similarity to compare resumes with a job description
+Classified resumes into High, Medium, and Low Match categories
 
-Scores each resume by match percentage
+Dashboard displays top resumes, match % per candidate, and match distribution
 
-Categorizes them as High, Medium, or Low Match
+📊 Key Features & Insights
+📄 Reads .txt resumes and job description
 
-📊 Why It Matters:
-Recruiters don’t need to manually scan 100+ resumes anymore.
-This bot brings automation, speed, and fairness to the shortlisting process — and visualizes it all in Power BI.
+🧠 Uses AI to score resumes based on relevance
 
-🧠 Tools & Tech:
+📈 Top match score: 27.15%
+
+✅ Automatically highlights top 5 resumes
+
+🔎 Categories: High (70%+), Medium (40–69%), Low (<40%)
+
+📊 Dashboard enables recruiters to instantly filter and shortlist top candidates
+
+⚠ Disclaimer
+This project uses dummy resume data and a sample job description for learning and portfolio purposes only. It does not use or represent real applicant information.
+
+👩‍💻 Built With
 Python (Jupyter Notebook)
 
-NLP: TF-IDF, Cosine Similarity
+Scikit-learn (TF-IDF, Cosine Similarity)
 
-Power BI: Final visual dashboard
+Power BI (Dashboard)
 
-Excel: Stores the results
+Excel (For exporting results)
 
-💡 Real-World Use Case:
-Built to help HR teams, freelancers, and recruiters make better, faster, and smarter hiring decisions with the help of AI.
+Canva (For project slides)
 
+📷 Preview
+Add your Power BI dashboard screenshot and sample result output here.
+
+✨ Connect with me on LinkedIn – I'd love to hear your feedback or collaborate on cool ideas! 😊
